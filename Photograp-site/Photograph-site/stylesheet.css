@@ -19,6 +19,8 @@ h1{
     font-size: 8rem;
     color:#212F3D;
 }
+
+body{background-color: var(--primarycolor);}
 /*=============
 Navigation bar
 =============*/
@@ -52,9 +54,7 @@ Navigation bar
     color: var(--textcolor);
     padding: 1.6rem;
     border: none;
-    border-radius: 2rem;
-    border-bottom-left-radius: 0rem;
-    border-bottom-right-radius: 0rem;
+    border-radius: 2rem 2rem 0 0;
     font-size: 3rem;
 }
 .dropdown {
@@ -70,12 +70,15 @@ Navigation bar
     text-align: center;
     left: 50%;
     transform: translatex(-50%);
+    border-radius: 0 0 2rem 2rem;
 }
 .dropdown-content a {
     color: var(--textcolor);
-    padding: 12px 16px;
+    padding: 12px 12px;
     text-decoration: none;
     display: block;
+    font-size: 2rem;
+    border-radius: 2rem;
 }
 
 .dropdown-content a:hover {
@@ -83,7 +86,8 @@ Navigation bar
 }
 
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: var(--primaryhovercolor);}
+.dropdown:hover .dropbtn {
+    background-color: var(--primaryhovercolor);}
 .dropdown{font-size: 3rem;}
 
 /*Sign in*/
@@ -136,16 +140,18 @@ Showcase
 Gallery
 ============*/
 .gallery{
-    padding-top: 10rem;
+    padding-top: 6rem;
     background-color: var(--primarycolor);
-    height: 100vh;
+    height: 500vh;
 }
 
-.gallery__card{
+.gallery__smallmoments{
     display: flex;
     justify-content: center;
     gap: 5rem;
     flex-wrap: wrap;
+    padding-top: 6rem;
+    border-top: solid var(--primaryhovercolor);
 }
 
 .popup{
@@ -166,3 +172,8 @@ Gallery
 
 .popup a {color: var(--textcolor);
     text-decoration: none;}
+
+.gallery__smallmoments__title{
+    font-size: 3rem;
+    flex-grow: 3;
+}
