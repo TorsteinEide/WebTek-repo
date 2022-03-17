@@ -1,0 +1,16 @@
+.countdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin: 20%;
+    font-family: 'Roboto Mono', monospace;
+    background-color: white;
+    border: 5px black dashed;
+}
+
+body{
+    background-image: url(https://www.ready.gov/sites/default/files/2019-09/hero_nuclear_blast.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
