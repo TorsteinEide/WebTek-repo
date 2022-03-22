@@ -1,0 +1,40 @@
+.dice{
+    background-image: url(https://miro.medium.com/max/1400/1*nJCT-2AKzD07WipKK8vPRA.png);
+    height: 15rem;
+    width: 15rem;
+}
+
+.secondFace{
+    background-image: url(https://miro.medium.com/max/1400/1*nJCT-2AKzD07WipKK8vPRA.png);
+    height: 15rem;
+    width: 15rem;
+    background-position: -14rem;
+}
+
+.thirdFace{
+    background-image: url(https://miro.medium.com/max/1400/1*nJCT-2AKzD07WipKK8vPRA.png);
+    height: 15rem;
+    width: 15rem;
+    background-position: -29rem;
+}
+
+.fourthFace{
+    background-image: url(https://miro.medium.com/max/1400/1*nJCT-2AKzD07WipKK8vPRA.png);
+    height: 15rem;
+    width: 15rem;
+    background-position: -43rem;
+}
+
+.fifthFace{
+    background-image: url(https://miro.medium.com/max/1400/1*nJCT-2AKzD07WipKK8vPRA.png);
+    height: 15rem;
+    width: 15rem;
+    background-position: -58rem;
+}
+
+.sixthFace {
+    background-image: url(https://miro.medium.com/max/1400/1*nJCT-2AKzD07WipKK8vPRA.png);
+    height: 15rem;
+    width: 15rem;
+    background-position: 15rem;
+}
