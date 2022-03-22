@@ -7,13 +7,16 @@
     box-sizing: border-box;
     font-family: 'Lora', serif;
 }
-html{font-size: 62.5%;}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
 :root{
     --headersitemsize: 25rem;
-    --primarycolor: #e3dac9;
-    --primaryhovercolor: #D8D0C1;
+    --primarycolor: white;
+    --primaryhovercolor: lightgray;
     --textcolor: #202020;
-    --secondarycolor:#38835b;
+    --secondarycolor: #32CD32;
 }
 h1{
     font-size: 8rem;
@@ -125,10 +128,9 @@ Showcase
     font-weight: bold;
     font-size: 2rem;
     border: none;
-    border-radius: 0.5rem;
 }
 .callToAction:hover{
-    background-color: #327551;
+    background-color: #58D68D;
 }
 
 /*Main header of showcase*/
@@ -146,8 +148,11 @@ Gallery
 }
 
 .gallery__smallmoments{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 5rem;
+    padding-right: 5rem;
+    justify-content: space-between;
     gap: 5rem;
     flex-wrap: wrap;
     padding-top: 6rem;
